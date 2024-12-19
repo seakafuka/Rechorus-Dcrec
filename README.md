@@ -2,6 +2,20 @@
 
 This repository contains the implementation of **Dcrec (Debiased Contrastive Learning for Sequential Recommendation)**, a model designed to improve recommendation performance by addressing the issues of **popularity bias** and **sparse data**. The model has been successfully reproduced within the **Rechorus** framework, which provides a flexible environment for evaluating various recommendation models.
 
+## Our Modifications
+
+In our implementation of the **Dcrec** model, we made several important modifications to the original codebase:
+
+1. We **added** the `DcrecRunner` and `DcrecReader` files to better handle data loading and model training.
+
+2. The core implementation of the **Dcrec** model is located in the `model/Dcrec.py` file, where the primary model architecture and logic are defined.
+
+3. We moved additional utility functions to the `utils/dcrec_util.py` file to better organize the code.
+
+These changes were made to better align with the original framework, maintaining the overall structure and completeness of the **Dcrec** model within the **Rechorus** framework.
+
+
+
 ## Getting Started
 
 To get started with **Dcrec** in the **Rechorus** framework, follow these steps:
